@@ -1,5 +1,9 @@
-#r "paket: groupref build //"
-#load "./.fake/build.fsx/intellisense.fsx"
+#r "nuget: Fake.Core.ReleaseNotes"
+#r "nuget: Fake.Core.Target"
+#r "nuget: Fake.DotNet.Cli"
+
+// #r "paket: groupref build //"
+// #load "./.fake/build.fsx/intellisense.fsx"
 
 #if !FAKE
 #r "netstandard"
