@@ -1,6 +1,6 @@
-#r "paket: Fake.Core.ReleaseNotes"
-#r "paket: Fake.Core.Target"
-#r "paket: Fake.DotNet.Cli"
+#r "paket: nuget Fake.Core.ReleaseNotes"
+#r "paket: nuget Fake.Core.Target"
+#r "paket: nuget Fake.DotNet.Cli"
 
 // #r "paket: groupref build //"
 // #load "./.fake/build.fsx/intellisense.fsx"

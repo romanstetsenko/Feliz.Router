@@ -23,4 +23,4 @@ os: Visual Studio 2022
 build_script:
   - cmd: fake build -t test
 
-test: off
+test: false
