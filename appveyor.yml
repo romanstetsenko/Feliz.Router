@@ -11,6 +11,7 @@ cache:
 install:
   # install latest dotnet core 3 preview
   #- cmd: choco install dotnet-6.0-sdk
+  - cmd: dotnet tool restore
   - cmd: dotnet tool install -g fake-cli
   - cmd: dotnet tool install -g paket
   # # Update npm
