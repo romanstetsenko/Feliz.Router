@@ -2,14 +2,12 @@ group Main
     source https://api.nuget.org/v3/index.json
     storage:none
     lowest_matching: true
-    nuget Elmish
-    nuget Fable.Mocha
+    nuget Elmish >= 4.0.0-beta-4
+    nuget Fable.Mocha >= 2.9.1
     nuget Fable.SimpleJson
-    nuget Feliz
+    nuget Feliz >= 2.0.0-prerelease-003
     nuget Feliz.UseListener
-    nuget FSharp.Core ~> 4.7.2
-    nuget Fable.Core
-    nuget Fable.Elmish.React
+    nuget Fable.Elmish.React >= 4.0.0-beta-4
 
 group Analyzers
 source https://www.nuget.org/api/v2
@@ -21,8 +19,6 @@ group Build
     framework: netstandard2.0
     storage: none
 
-    nuget FSharp.Core
     nuget Fake.Core.ReleaseNotes
     nuget Fake.Core.Target
     nuget Fake.DotNet.Cli
-    nuget Fake.IO.FileSystem
